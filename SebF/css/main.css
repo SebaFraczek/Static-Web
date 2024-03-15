@@ -1,0 +1,514 @@
+.logo{
+
+    width: 10%;
+    height: 150px;
+    float: left;
+}
+
+.title{
+
+    width: 80%;
+    height: 150px;
+    text-align: center;
+    line-height: 3;
+    font-size: 50px;
+    text-decoration: underline overline;
+    text-decoration-color: rgb(243, 210, 045);
+    color: white;
+    float: left;
+}
+
+.fill{
+
+    width: 10%;
+    height: 150px;
+    float: left;
+}
+
+ul {
+    width: 100%;
+    height: 75px;
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+    float: left;
+}
+        
+li {
+        display: inline-block;
+}
+        
+li a {
+        display: block;
+        color: white;
+        text-align: center;
+        font-size: x-large;
+        padding: 25px 91px;
+        text-decoration: none;
+}
+        
+li a:hover {
+        background-color: rgb(243, 210, 045);
+        text-decoration: underline overline;
+        text-decoration-color: rgb(33, 158,188);
+        color: #111;
+}
+
+.heading{
+    width: 98%;
+    height: 75px;
+    margin: 1% 2% 0 0;
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+    text-decoration-color: rgb(243, 210, 045);
+    color: white;
+    float: left;
+}
+
+.infoBox{
+    width: 40%;
+    height: 100px;
+    text-align: center;
+    font-size: larger;
+    color: white;
+    float: left;
+}
+
+.break2{
+    width: 30%;
+    height: 100px;
+    float: left;
+}
+
+.searchFill{
+  width: 24%;
+  height: 100px;
+  float: left;
+}
+
+.search{
+    margin: 1% 0% 1% 1%;
+    float: left;
+}
+
+.search input[type=text] {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    font-size: 17px;
+}
+
+.comparison{
+  width: 24%;
+  height: 100px;
+  text-align: center;
+  font-size: xx-large;
+  line-height: 3;
+  color: white;
+  float: left;
+}
+
+.levelFill {
+  width: 41%;
+  height: 50px;
+  float: left;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: large;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.level {
+  background-color: rgb(33, 158,188);
+  width: 5%;
+  height: 50px;
+  color: white; 
+  font-size: large;
+  border: 2px solid rgb(243, 210, 045);
+  margin: 0 2% 0 2%;
+  float: left;
+}
+
+.level:hover {
+  background-color: rgb(243, 210, 045);
+  color: black;
+}
+
+.box{
+    background-color: rgb(33, 158,188);
+    width: 30%;
+    height: 600px;
+    margin: 1% 1% 5% 7%;
+    text-align: center;
+    line-height: 2;
+    font-size: x-large;
+    color: white;
+    float: left;
+}
+
+.champName{
+    width: 100%;
+    height: 25px;
+    float: left;
+}
+
+.champImage{
+    width: 200px;
+    height: 364px;
+    margin: 5% 0% 0% 7%;
+    float: left;
+}
+
+.champRole{
+    width: 200px;
+    margin: 5% 0% 0% 0%;
+    font-size: x-large;
+    line-height: 1;
+    float: left;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 45%;
+    margin: 5% 0% 0% 7%;
+    float: left;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 6px;
+    font-size: large;
+  }
+
+  th{
+    color: rgb(243, 210, 045);
+  }
+  
+  tr:nth-child(odd) {
+    background-color: rgb(2, 48, 80);
+  }
+
+  tr:nth-child(even) {
+    background-color: rgb(4, 96, 160);
+  }
+
+
+.tableBox {
+  background-color: rgb(33, 158,188);
+  width: 35%;
+  height: 600px;
+  margin: 1% 5% 1% 5%;
+  float: left;
+}
+
+.champ1Name {
+  width: 100%;
+  height: 35px;
+  margin-bottom: 1%;
+  text-align: center;
+  line-height: 1.25;
+  font-size: xx-large;
+  float: left;
+}
+
+.champ1Left {
+  width: 50%;
+  height: 465px;
+  float: left;
+}
+
+.champ1Image {
+  width: 200px;
+  height: 364px;
+  margin: 20px 0 0 60px;
+}
+
+.champ1Role {
+  width: 100%;
+  height: 81px;
+  text-align: center;
+  line-height: 3;
+  font-size: x-large;
+  float: left;
+}
+
+.champ1Right {
+  width: 50%;
+  height: 465px;
+  float: left;
+}
+
+.champ1Table {
+  width: 85%;
+  height: 425px;
+  margin: 20px 10% 0 5%;
+  float: left;
+}
+
+.statsTitle {
+  background-color: lightslategray;
+  width: 100%;
+  height: 10%;
+  text-align: center;
+  line-height: 2;
+  font-size: larger;
+  float: left;
+}
+
+.attributeEven {
+  background-color: lightskyblue;
+  width: 60%;
+  height: 10%;
+  text-align: right;
+  line-height: 2.25;
+  font-size: large;
+  float: left;
+}
+
+.attributeOdd {
+  background-color: lightslategray;
+  width: 60%;
+  height: 10%;
+  text-align: right;
+  line-height: 2.25;
+  font-size: large;
+  float: left;
+}
+
+.healthPoints1 {
+  background-color: lightskyblue;
+  width: 40%;
+  height: 10%;
+  text-align: center;
+  line-height: 2.25;
+  font-size: large;
+  float: left;
+}
+
+.manaPoints1 {
+  background-color: lightslategray;
+  width: 40%;
+  height: 10%;
+  text-align: center;
+  line-height: 2.25;
+  font-size: large;
+  float: left;
+}
+
+.energyPoints1 {
+  background-color: lightskyblue;
+  width: 40%;
+  height: 10%;
+  text-align: center;
+  line-height: 2.25;
+  font-size: large;
+  float: left;
+}
+
+.attackDamage1 {
+  background-color: lightslategray;
+  width: 40%;
+  height: 10%;
+  text-align: center;
+  line-height: 2.25;
+  font-size: large;
+  float: left;
+}
+
+.attackSpeed1 {
+  background-color: lightskyblue;
+  width: 40%;
+  height: 10%;
+  text-align: center;
+  line-height: 2.25;
+  font-size: large;
+  float: left;
+}
+
+.attackRange1 {
+  background-color: lightslategray;
+  width: 40%;
+  height: 10%;
+  text-align: center;
+  line-height: 2.25;
+  font-size: large;
+  float: left;
+}
+
+.armor1 {
+  background-color: lightskyblue;
+  width: 40%;
+  height: 10%;
+  text-align: center;
+  line-height: 2.25;
+  font-size: large;
+  float: left;
+}
+
+.magicResist1 {
+  background-color: lightslategray;
+  width: 40%;
+  height: 10%;
+  text-align: center;
+  line-height: 2.25;
+  font-size: large;
+  float: left;
+}
+
+.movementSpeed1 {
+  background-color: lightskyblue;
+  width: 40%;
+  height: 10%;
+  text-align: center;
+  line-height: 2.25;
+  font-size: large;
+  float: left;
+}
+
+.homeImages {
+  background-color: rgb(243, 210, 045);
+  width: 50%;
+  height: 500px;
+  margin: 2% 25%;
+  float: left;
+}
+
+.subtitle {
+  width: 50%;
+  height: 50px;
+  margin: 1% 0 1% 0;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  float: left;
+}
+
+.formbox {
+  width: 50%;
+  height: 500px;
+  float: left;
+}
+
+.filterLeft {
+  width: 25%;
+  height: 200px;
+  float: left;
+}
+
+.filterMiddle {
+  width: 37.5%;
+  height: 200px;
+  float: left;
+}
+
+.filterRight {
+  width: 37.5%;
+  height: 200px;
+  float: left;
+}
+
+.checkText {
+  width: 15%;
+  height: 25px;
+  margin: 2% 0% 2% 2%;
+  font-size: x-large;
+  color: white;
+  float: center;
+}
+
+.check {
+  width: 6%;
+  height: 25px;
+  margin: 4% 0% 12% 0%;
+  float: center;
+}
+
+.filterBtn {
+  width: 16%;
+  height: 35px;
+  margin: 4% 42% 0 42%;
+  text-align: center;
+  font-size: large;
+  float: left;
+}
+
+.championBox {
+  width: 50%;
+  height: 500px;
+  float: left;
+}
+
+.championImageBox {
+  width: 50%;
+  height: 500px;
+  float: left;
+}
+
+.championImage{
+  width: 200px;
+  height: 364px;
+  float: right;
+  margin: 2.5% 0% 0% 0%;
+}
+
+.championInfoBox {
+  width: 50%;
+  height: 500px;
+  float: left;
+}
+
+.championName {
+  width: 100%;
+  height: 25px;
+  font-size: xx-large;
+  color: white;
+  text-align: left;
+  margin: 10% 0 12.5% 5%;
+  float: left;
+}
+
+.championRole {
+  width: 100%;
+  height: 25px;
+  font-size: xx-large;
+  color: white;
+  text-align: left;
+  margin: 0 0 12.5% 5%;
+  float: left;
+}
+
+.recommendedLane {
+  width: 100%;
+  height: 25px;
+  font-size: x-large;
+  color: white;
+  text-align: left;
+  margin: 0 0 2.5% 5%;
+  float: left;
+}
+
+.championLane {
+  width: 100%;
+  height: 25px;
+  font-size: xx-large;
+  color: white;
+  text-align: left;
+  margin: 0 0 0 5%;
+  float: left;
+}

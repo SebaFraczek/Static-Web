@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>League of Legends Handyman</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+</head>
+
+    <body style="background-color: rgb(2, 48, 80);">        
+        <div class="logo"></div>
+        <div class="title">League of Legends Handyman</div>
+        <div class="fill"></div>
+
+        <ul>
+            <li><a class="navigation" href="Home.html">Home</a></li>
+            <li><a href="Index.html">Compare</a></li>
+            <li><a href="Randomiser.html">Randomiser</a></li>
+        </ul>
+
+        <div class="heading">Randomiser</div>
+        <div class="break2"></div>
+        <div class="infoBox">Here you can have fun and randomise your next champion. The filter is optional for playing a specific lane. When filtered, the randomisation will contain all of the champions which are suitable for the specified lane.</div>
+        <div class="break2"></div>
+
+        <div class="subtitle">Filter</div>
+        <div class="subtitle">Champion</div>
+
+        <div class="formbox">
+            <form>
+                <div class="filterLeft"></div>
+                <div class="filterMiddle">
+                    <input class="check" type="checkbox" id="toplane" name="toplane" value="Toplane">
+                    <label class="checkText"> Toplane</label><br>
+                    <input class="check" type="checkbox" id="botlane" name="botlane" value="Botlane">
+                    <label class="checkText"> Botlane</label><br>
+                    <input class="check" type="checkbox" id="jungle" name="jungle" value="Jungle">
+                    <label class="checkText"> Jungle</label><br>
+                </div>
+                <div class="filterRight">
+                    <input class="check" type="checkbox" id="midlane" name="midlane" value="Midlane">
+                    <label class="checkText"> Midlane</label><br>
+                    <input class="check" type="checkbox" id="support" name="support" value="Support">
+                    <label class="checkText"> Support</label><br>
+                    <input class="check" type="checkbox" id="noFilter" name="noFilter" value="No Filter">
+                    <label class="checkText"> No Filter</label><br><br>
+                </div>
+                <input class="filterBtn" type="button" value="Randomise">
+            </form>
+        </div>
+
+        <div class="championBox">
+            <div class="championImageBox">
+                <div class="championImage">
+                    <img src="Aatrox.png" width="200px" height="364px">
+                </div>
+            </div>
+            <div class="championInfoBox">
+                <div class="championName">Aatrox</div>
+                <div class="championRole">Fighter</div>
+                <div class="recommendedLane">Recommended Lane:</div>
+                <div class="championLane">Toplane</div>
+            </div>
+        </div>
+        
+    </body>
+</html>
